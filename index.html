@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dark Organic Style Grid</title>
+<style>
+  body {
+    font-family: 'Courier New', monospace;
+    background-color: #0a0a0a;
+    color: white;
+    padding: 2rem;
+    margin: 0;
+  }
+
+  /* Grid like Template 2 */
+  .dark-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* same as Template 2 */
+    gap: 30px; /* same gap */
+  }
+
+  /* Card with organic shape but dark colors */
+  .dark-card {
+    background-color: #1a1a1a;
+    border: 1px solid #39ff14; /* neon green border instead of soft amber */
+    border-radius: 16px; /* like Template 2 */
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .dark-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px #39ff14;
+  }
+
+  .dark-card img {
+    width: 100%;
+    height: 200px; /* same height as Template 2 */
+    object-fit: cover;
+  }
+
+  .dark-card .info {
+    padding: 18px; /* same padding as Template 2 */
+  }
+
+  .dark-card h3 {
+    margin: 0;
+    color: #39ff14; /* neon green */
+  }
+
+  .dark-card p {
+    color: #a3ff7a; /* lighter green for description */
+    font-size: 0.9rem;
+    margin: 6px 0;
+  }
+
+  .dark-card .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .dark-card .price {
+    font-weight: bold;
+    color: #9f6c00; /* a warm color to contrast the green, or you can make it neon green */
+  }
+
+  .dark-card button {
+    background-color: #39ff14;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: black;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .dark-card button:hover {
+    background-color: #2ce800;
+  }
+</style>
+</head>
+<body>
+
+  <div class="dark-grid">
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Futuristic Helmet" />
+      <div class="info">
+        <h3>Futuristic Helmet</h3>
+        <p>Cutting-edge tech gear for digital warriors</p>
+        <div class="footer">
+          <span class="price">$249</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Cyber Jacket" />
+      <div class="info">
+        <h3>Cyber Jacket</h3>
+        <p>Stay stylish in the neon city</p>
+        <div class="footer">
+          <span class="price">$179</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Neon Sneakers" />
+      <div class="info">
+        <h3>Neon Sneakers</h3>
+        <p>Run fast, shine bright</p>
+        <div class="footer">
+          <span class="price">$99</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Futuristic Helmet" />
+      <div class="info">
+        <h3>Futuristic Helmet</h3>
+        <p>Cutting-edge tech gear for digital warriors</p>
+        <div class="footer">
+          <span class="price">$249</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Cyber Jacket" />
+      <div class="info">
+        <h3>Cyber Jacket</h3>
+        <p>Stay stylish in the neon city</p>
+        <div class="footer">
+          <span class="price">$179</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Neon Sneakers" />
+      <div class="info">
+        <h3>Neon Sneakers</h3>
+        <p>Run fast, shine bright</p>
+        <div class="footer">
+          <span class="price">$99</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Futuristic Helmet" />
+      <div class="info">
+        <h3>Futuristic Helmet</h3>
+        <p>Cutting-edge tech gear for digital warriors</p>
+        <div class="footer">
+          <span class="price">$249</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Cyber Jacket" />
+      <div class="info">
+        <h3>Cyber Jacket</h3>
+        <p>Stay stylish in the neon city</p>
+        <div class="footer">
+          <span class="price">$179</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Neon Sneakers" />
+      <div class="info">
+        <h3>Neon Sneakers</h3>
+        <p>Run fast, shine bright</p>
+        <div class="footer">
+          <span class="price">$99</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Futuristic Helmet" />
+      <div class="info">
+        <h3>Futuristic Helmet</h3>
+        <p>Cutting-edge tech gear for digital warriors</p>
+        <div class="footer">
+          <span class="price">$249</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Cyber Jacket" />
+      <div class="info">
+        <h3>Cyber Jacket</h3>
+        <p>Stay stylish in the neon city</p>
+        <div class="footer">
+          <span class="price">$179</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-card">
+      <img src="p1.jpg" alt="Neon Sneakers" />
+      <div class="info">
+        <h3>Neon Sneakers</h3>
+        <p>Run fast, shine bright</p>
+        <div class="footer">
+          <span class="price">$99</span>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
